@@ -96,11 +96,13 @@ func main() {
 
 	http.HandleFunc("/ohno", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "text/html")
-		w.Write([]byte(`<center>
+		w.Write([]byte(`<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+		<center>
 		<img src="/ohno/ohno.jpg"><br>
 		<small>this image gets re-jpg encoded with each visitor.<br>
 		every time you visit this page you're helping destroy something beautiful.<br>
-		oh no</small>
+		<a href="https://github.com/schmichael.com/ohno">oh no</a>
+		</small>
 		</center>`))
 	})
 
