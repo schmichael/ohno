@@ -101,7 +101,7 @@ func main() {
 		<img src="/ohno/ohno.jpg"><br>
 		<small>this image gets re-jpg encoded with each visitor.<br>
 		every time you visit this page you're helping destroy something beautiful.<br>
-		<a href="https://github.com/schmichael.com/ohno">oh no</a>
+		<a href="https://github.com/schmichael/ohno">oh no</a>
 		</small>
 		</center>`))
 	})
